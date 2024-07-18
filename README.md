@@ -22,9 +22,9 @@ The dataset (`pet_adoption_data.csv`) contains information about pets in shelter
 The project is structured as follows:
 
 ```
-pet_adoption_prediction/
+petadoptionrate_model/
 │
-├── pet_adoption_analysis.ipynb
+├── pet_adoptionrate_analysis.ipynb
 ├── pet_adoption_data.csv
 ├── requirements.txt
 └── README.md
@@ -34,8 +34,8 @@ pet_adoption_prediction/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/pet-adoption-prediction.git
-   cd pet-adoption-prediction
+   git clone https://github.com/FarisAI24/PetAdoptionRate-model/
+   cd petadoptionrate_model
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -55,7 +55,7 @@ pet_adoption_prediction/
 
 2. Open the Jupyter notebook:
    ```
-   jupyter notebook pet_adoption_analysis.ipynb
+   jupyter notebook pet_adoptionrate_analysis.ipynb
    ```
    or
    ```
@@ -66,7 +66,7 @@ pet_adoption_prediction/
 
 ## Contents of the Notebook
 
-The `pet_adoption_analysis.ipynb` notebook contains the following sections:
+The `pet_adoptionrate_analysis.ipynb` notebook contains the following sections:
 
 1. Data Loading and Initial Exploration
 2. Data Preprocessing
@@ -82,6 +82,3 @@ The Random Forest Classifier achieves an accuracy of 92% on the test set.
 - Perform hyperparameter tuning to improve model performance
 - Collect more data to potentially improve prediction accuracy
 - Develop a web application for easy use by shelter staff
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
